@@ -7,9 +7,11 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.5">
-    <title>About Page</title>
+    <title>About PAge</title>
+
+
     <!-- Bootstrap core CSS -->
-<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet"  >
 
 
     <style>
@@ -30,58 +32,100 @@
     </style>
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
+      
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+      
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark  bg-dark">
   <a class="navbar-brand" href="#">My College</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-    
-      <ul class="navbar-nav mr-auto">
-      <li class="nav-item ">
-         <a class="nav-link" href="index.html">Home </a>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+<a class="nav-link" href="index.html"><span class="glyphicon glyphicon-home"> Home </span></a>
       </li>
-         <li class="nav-item ">
-         <a class="nav-link" href="about.html">About </a>
+    <li class="nav-item">
+        <a class="nav-link" href="about.html"><span class="glyphicon glyphicon-user"> About </span></a>
       </li>
-         <li class="nav-item ">
-         <a class="nav-link" href="Contact.html">Contact </a>
+        <li class="nav-item">
+            <a class="nav-link" href="album.html"><span class="glyphicon glyphicon-picture"> Album </span></a>
       </li>
-         <li class="nav-item ">
-         <a class="nav-link" href="Signin.html">Sign In </a>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html"><span class="glyphicon glyphicon-education"> Contact </span></a>
+      </li>
+        <li class="nav-item">
+            <a class="nav-link" href="signin.html"><span class="glyphicon glyphicon-pencil"> Signin </span></a>
       </li>
     </ul>
-      </div>
+
+  </div>
 </nav>
 
 <main role="main">
-<div class="mt-5 md-5 border p-3">
-    <h1>Sign In </h1>
-    <div class="row">
-    <div class=" col-6">
-        <p>If you are using Gmail, Google’s free and hugely popular webmail client (more than 1.5 billion users, accounting for 20% of the world’s email traffic), then you probably only look at your email login history when you are informed of suspicious activity on your account. Any time you use a new device (like a new smartphone or tablet, or a shared computer somewhere) to log into your Gmail account, Google sends an alert to the device or account you’ve specified for such security notifications. </p>
-    </div>
-    
-    <div class=" col-6">
-        <p>In order to detect unauthorized users, you need to know who the authorized users are. More specifically, Gmail doesn’t really track users, it tracks sessions, and those sessions are identified by the device, the browser software, and the IP address used for access. Accordingly, you will need to know which devices you’ve used to access your Gmail account, the IP addresses from which you’ve accessed it, the browsers you used to do it, and the exact dates when you logged on to check your email.</p>
+    <div class="container">
+        <div class="bg-light border mt-3 mb-3 p-5">
+            <center> <h1><b><u>Sign In Page</u></b></h1></center>
+            <br><br>
+            
+            <div class="container login-container">
+            <div class="row">
+                <div class="col-md-6 login-form-1">
+                    <h3><b>Faculty Login</b></h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Enter Your Email" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Enter Your Password" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btnSubmit" value="Login" />
+                        </div>
+                        <div class="form-group">
+                            <a href="#" class="ForgetPwd">Forget Password?</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 login-form-2">
+                    <h3><b>Students Login</b></h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Enter Your Email" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Enter Your Password" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btnSubmit" value="Login" />
+                        </div>
+                        <div class="form-group">
 
+                            <a href="#" class="ForgetPwd" value="Login">Forget Password?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-    <div class="col-6">
-        <h1>Query </h1>
-        <p>If There Is any Errors In Signing In,Then Contact To Administrator.</p>
-    </div>
+            
+        </div>
         
     </div>
-</div>
-</main>
 
+</main>   
+   <hr>   
 <footer class="container">
-  <p>&copy; Company 2017-2019</p>
+    <center><p>&copy;Rakesh's-Company 2017-2019</p></center>
 </footer>
-  <script src="js/jQuery.js" ></script>
-  <script src="js/bootstrap.js" ></script>
-    </body>
+      
+    <script src="js/jquery.js" ></script>
+    <script src="js/bootstrap.js" ></script>
+      
+</body>
 </html>
