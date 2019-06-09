@@ -1,63 +1,48 @@
-
-<!doctype html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Rakesh Charlie">
     <title>Rakesh's First Website</title>
-
-    <!-- Bootstrap core CSS -->
-<link href="css/bootstrap.css" rel="stylesheet"  >
-      <link href="Style.css" type="text/css" rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
+      <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet"  >
+        <link href="Style.css" type="text/css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="jumbotron.css" rel="stylesheet">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link href="jumbotron.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-md navbar-dark  bg-dark">
-        <a class="navbar-brand" href="#">My College</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    
+  <body id="body">
+        <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
+        <a class="navbar-brand" href="index.html">My College</a>
+            
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    
+          <span class="navbar-toggler-icon"></span>
+      </button>
 
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-          <a class="nav-link" href="index.html"><span class="glyphicon glyphicon-home"> Home </span></a>
+          <a class="nav-link" href="index.html"><span class="glyphicon glyphicon-home"><b> Home </b></span></a>
       </li>
-    <li class="nav-item">
-        <a class="nav-link" href="about.html"><span class="glyphicon glyphicon-user"> About </span></a>
+      <li class="nav-item">
+          <a class="nav-link" href="about.html"><span class="glyphicon glyphicon-user"><b> About </b></span></a>
       </li>
-        <li class="nav-item">
-            <a class="nav-link" href="album.html"><span class="glyphicon glyphicon-picture"> Album </span></a>
+      <li class="nav-item">
+          <a class="nav-link" href="album.html"><span class="glyphicon glyphicon-picture"><b> Album </b></span></a>
       </li>
-        <li class="nav-item">
-            <a class="nav-link" href="contact.html"><span class="glyphicon glyphicon-education"> Contact </span></a>
+      <li class="nav-item">
+          <a class="nav-link" href="contact.html"><span class="glyphicon glyphicon-education"><b> Contact </b></span></a>
       </li>
-        <li class="nav-item">
-            <a class="nav-link" href="signin.html"><span class="glyphicon glyphicon-pencil"> Signin </span></a>
+      <li class="nav-item">
+          <a class="nav-link" href="signin.html"><span class="glyphicon glyphicon-pencil"><b> Signin </b></span></a>
       </li>        
     </ul>
+      
 <img id="image" align="right" src="images/5.png" width="45" height="40" >
   </div>
 </nav>
@@ -67,11 +52,45 @@
   <!-- Main jumbotron for a primary marketing message or call to action -->
   
     <div class="container">
-        <center><h1 class="display-3"><b>Rakesh's Institute Of Engineering And Techology</b></h1></center>
+        <marquee>
+        <center><h1 class="display-3"><b id="name">Rakesh's Institute Of Engineering And Techology</b></h1></center>
+        </marquee>
      <img id="image" src="images/clg.jpg" class="w-100 mb-3">
       
-      <p>Rakesh's Group of Engineering And Technology well Known as Rakesh's Engineering College and it was Established in 1998 by Dr.Charlie. It is a Premier institute imparting Knowlegde in areas of Engineering, Science, Technology and Education. More Over It focus on The Students to Learn and Practice Effeciently. The College is Extremely accredited By NAAC with Grade "A".</p>
-      <p><a class="btn btn-primary btn-lg" href="about.html" role="button">Explore &raquo;</a></p>
+        <h4><p>Rakesh's Group of Engineering And Technology well Known as Rakesh's Engineering College and it was Established in 1998 by Dr.Charlie. It is a Premier institute imparting Knowlegde in areas of Engineering, Science, Technology and Education. More Over It focus on The Students to Learn and Practice Effeciently. The College is Extremely accredited By NAAC with Grade "A".</p></h4>
+      
+          
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalCenter">
+  Explore&raquo;
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">It's Fake Page</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <center>
+        Hey! User You are on the Wrong Site!<br>
+              <center>    ****WARNING****<br></center>
+        It is a Fake Website.<br>
+                Invalid Page.
+          </center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+          
+          <!--a class="btn btn-primary btn-lg" href="about.html" role="button">Explore &raquo;</a--> 
     </div>
     <div class="container  pb-5 pt-5">
   <div class="row">
@@ -87,20 +106,80 @@
       <div class="col-md-4 ">
         <img id="image" src="images/lib.jpg" style="width:100%;height:200px" >
         <h2>Library</h2>
-        <p>The Students can gain There Knowledge via reffering the Global Books which are avaible in the Library.The Library is very Spacious such that no students can skip there gaining there Knowledge. And Also Central A/C is also avaible -vast Knowledge  </p>
-        <p><a class="btn btn-dark" href="view.html" role="button">View details &raquo;</a></p>
+          <h5><p>The Students can gain There Knowledge via reffering the Global Books which are avaible in the Library.The Library is very Spacious such that no students can skip there gaining there Knowledge. And Also Central A/C is also avaible -vast Knowledge  </p></h5>
+          
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalCenter">
+  View Details&raquo;
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">It's Fake Page</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <center>
+        Hey! User You are on the Wrong Site!<br>
+              <center>    ****WARNING****<br></center>
+        It is a Fake Website.<br>
+                Invalid Page.
+          </center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+          
       </div>
       <div class="col-md-4">
         <img id="image" src="images/ground.jpg" style="width:100%;height:200px" >
         <h2>Play ground</h2>
-        <p>The college presently have it’s own green playground, where regular sports & games such as volleyball, football and cricket etc are conducted time to time. We have facility for indoor games such as chess, badminton, Table Tennis and Snooker.  </p>
+          <h5><p>The college presently have it’s own green playground, where regular sports & games such as volleyball, football and cricket etc are conducted time to time. We have facility for indoor games such as chess, badminton, Table Tennis and Snooker.  </p></h5>
         <p><a class="btn btn-dark" href="view.html" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-4">
           <img id="image" src="images/class.jpg" style="width:100%;height:200px" >
         <h2>Classroom</h2>
-        <p>Rakesh's Group of College provides a professional and expert faculty to inculcate a questioning bent of mind and curiosity in the students. Our faculty members with rich academics as well as industrial experience as facilitators for the student’s future and members for their lives.</p>
-        <p><a class="btn btn-dark" href="view.html" role="button">View details &raquo;</a></p>
+          <h5><p>Rakesh's Group of College provides a professional and expert faculty to inculcate a questioning bent of mind and curiosity in the students. Our faculty members with rich academics as well as industrial experience as facilitators for the student’s future and members for their lives.</p></h5>
+        
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalCenter">
+  View Details&raquo;
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">It's Fake Page</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <center>
+        Hey! User You are on the Wrong Site!<br>
+              <center>    ****WARNING****<br></center>
+        It is a Fake Website.<br>
+                Invalid Page.
+          </center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+          
       </div>
     </div>
     <hr>
